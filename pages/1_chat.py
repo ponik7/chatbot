@@ -18,8 +18,7 @@ MODELS = {
 
 
 def clear_chat_history():
-    st.session_state.messages = [
-        {"role": "system", "content": system_prompt}]
+    st.session_state.messages = []
 
 
 def main():
