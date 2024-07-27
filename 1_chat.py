@@ -14,6 +14,7 @@ MODELS = {
     # "llama-3.1-8b-instruct": "meta-llama/llama-3.1-8b-instruct",
     # "mistral-7b-instruct-v0.3": "mistralai/mistral-7b-instruct-v0.3",
     "dolphin-mixtral-8x22b": "cognitivecomputations/dolphin-mixtral-8x22b",
+    "gpt-4o-mini-2024-07-18": "openai/gpt-4o-mini-2024-07-18",
 }
 
 
