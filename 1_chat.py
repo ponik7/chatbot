@@ -37,7 +37,7 @@ def main():
         # Sidebar for model selection
         choice = st.sidebar.selectbox("Select a model", list(MODELS.keys()))
         temperature = st.sidebar.slider(
-            'temperature', min_value=0.01, max_value=5.0, value=0.2, step=0.01)
+            'temperature', min_value=0.01, max_value=2.0, value=0.4, step=0.01)
         max_tokens = st.sidebar.slider(
             'max_tokens', min_value=1024, max_value=16384, value=4096, step=128)
 
