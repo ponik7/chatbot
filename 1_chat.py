@@ -39,7 +39,7 @@ def main():
         temperature = st.sidebar.slider(
             'temperature', min_value=0.01, max_value=5.0, value=0.2, step=0.01)
         max_tokens = st.sidebar.slider(
-            'max_tokens', min_value=32, max_value=1024, value=256, step=8)
+            'max_tokens', min_value=1024, max_value=16384, value=4096, step=128)
 
         st.sidebar.button('Clear Chat History', on_click=clear_chat_history)
 
