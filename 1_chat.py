@@ -19,6 +19,7 @@ MODELS = {
     "anthropic/claude-3.5-sonnet": "anthropic/claude-3.5-sonnet",
     "openai/gpt-4o-2024-08-06": "openai/gpt-4o-2024-08-06",
     "openai/o1-mini": "openai/o1-mini",
+    "openai/o1-preview": "openai/o1-preview"
 
 }
 
