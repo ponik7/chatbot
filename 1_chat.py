@@ -11,14 +11,11 @@ system_prompt = st.text_area(
 
 # Define models dictionary
 MODELS = {
-    # "llama-3.1-8b-instruct": "meta-llama/llama-3.1-8b-instruct",
-    # "mistral-7b-instruct-v0.3": "mistralai/mistral-7b-instruct-v0.3",
-    # "dolphin-mixtral-8x22b": "cognitivecomputations/dolphin-mixtral-8x22b",
     "gemini-flash-1.5-exp": "google/gemini-flash-1.5-exp",
     "gemini-pro-1.5-exp": "google/gemini-pro-1.5-exp",
     "claude-3.5-sonnet": "anthropic/claude-3.5-sonnet",
-    "gpt-4o-mini-2024-07-18": "openai/gpt-4o-mini-2024-07-18",
-    "gpt-4o-2024-08-06": "openai/gpt-4o-2024-08-06",
+    "openai/gpt-4o-mini": "openai/gpt-4o-mini",
+    "chatgpt-4o-latest": "openai/chatgpt-4o-latest",
     "o1-mini": "openai/o1-mini",
     "o1-preview": "openai/o1-preview",
 
