@@ -14,7 +14,7 @@ MODELS = {
     "gemini-flash-1.5-exp": "google/gemini-flash-1.5-exp",
     "gemini-pro-1.5-exp": "google/gemini-pro-1.5-exp",
     "claude-3.5-sonnet": "anthropic/claude-3.5-sonnet",
-    "openai/gpt-4o-mini": "openai/gpt-4o-mini",
+    "gpt-4o-mini": "openai/gpt-4o-mini",
     "chatgpt-4o-latest": "openai/chatgpt-4o-latest",
     "o1-mini": "openai/o1-mini",
     "o1-preview": "openai/o1-preview",
