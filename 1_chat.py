@@ -11,13 +11,10 @@ system_prompt = st.text_area(
 
 # Define models dictionary
 MODELS = {
-    "gemini-flash-1.5-exp": "google/gemini-flash-1.5-exp",
-    "gemini-pro-1.5-exp": "google/gemini-pro-1.5-exp",
     "chatgpt-4o-latest": "openai/chatgpt-4o-latest",
     "o3-mini-high": "openai/o3-mini-high",
     "claude-3.7-sonnet": "anthropic/claude-3.7-sonnet",
     "claude-3.7-sonnet:thinking": "anthropic/claude-3.7-sonnet:thinking"
-
 }
 
 
